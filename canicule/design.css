@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(images/fond.png);
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+#global {
+    width: 1150px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.6);
+}
+
+/* mise en page de l'en-tête */
+
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    position: relative;
+    height: 50px;
+}
+
+header h1 {
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    font-family: "Courier New", serif;
+    text-transform: uppercase;
+}
+
+/* mise en forme de la première grande partie */
+
+#part_one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sous_partie {
+    border-bottom: 1px solid black;
+    width: 700px;
+}
+
+.sous_partie h1 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.sous_partie p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#aside_part_one {
+    border-left: 1px solid black;
+    width: 250px;
+    padding-left: 20px;
+}
+
+#aside_part_one h1 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#aside_part_one h2 {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#aside_part_one p {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#aside_part_one a {
+    display: block;
+    font-size: 0.9em;
+    text-align: center;
+}
+/* mise en forme de la deuxième grande partie */
+
+#second_partie {
+    margin-bottom: 10px;
+}
+
+#seconde_partie h1{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#part_two {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.sous_part_two {
+    width: 300px;
+    text-align: justify;
+}
+
+.sous_part_two strong{
+    text-decoration: underline;
+}
+
+.sous_part_two p{
+    font-weight: normal;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+#two, #three {
+    border-left: 1px solid black;
+    padding-left: 30px;
+    height: 250px;
+}
+/* mise en forme du pied de page */
+
+footer {
+    border-top: 1px solid black;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
